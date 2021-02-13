@@ -9,10 +9,10 @@ Introduction to R programming language & RStudio
 Set working directory through the RStudio dashboard:
 
 1.
-![Go to directory](https://raw.github.com/pxp1441/Ecology-Data-Science-Workshop/main/screenshots-set-working-directory/setWorkDir1.PNG)
+![Go to directory](https://raw.github.com/ppufek/Ecology-Data-Science-Workshop/main/screenshots-set-working-directory/setWorkDir1.PNG)
 
 2.
-![Set working directory](https://raw.github.com/pxp1441/Ecology-Data-Science-Workshop/main/screenshots-set-working-directory/setWorkDir2.PNG)
+![Set working directory](https://raw.github.com/ppufek/Ecology-Data-Science-Workshop/main/screenshots-set-working-directory/setWorkDir2.PNG)
 
 OR
 
