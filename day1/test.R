@@ -7,7 +7,7 @@ setwd("C:/Users/Paula/Desktop/Ecology-Data-Science-Workshop/day1")
 
 # this can also be done by clicking:
 
-# 1. step: Press ... in the bottom right window (to chose the 'working' folder)
+# 1. step: Press ...(three little dots) in the bottom right window (to chose the 'working' folder)
 # 2. step: Files tab in the bottom right window -> More button -> Set As Working Directory
 
 
@@ -74,3 +74,18 @@ plot(data$chlorides, data$fixed.acidity)
 plot(data$pH, data$density) # x,y scatter plot
 plot(x = data$pH, y = data$citric.acid) # x,y scatter plot
 plot(y = data$pH, x = data$density) # x,y scatter plot
+
+
+############ Installing new packages (library)
+install.packages("tidyverse") 
+install.packages("ggpubr")
+
+# loading them so you can use functions
+library(tidyverse)
+library(ggpubr)
+
+
+# making nice plots
+ggplot(data = data, aes( x = sulphates, y = pH) ) + 
+  geom_point() +
+  theme_minimal() 
