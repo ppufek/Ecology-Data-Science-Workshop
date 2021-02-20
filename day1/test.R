@@ -85,7 +85,7 @@ library(tidyverse)
 library(ggpubr)
 
 
-# making nice plots
+# making nicer plots
 ggplot(data = data, aes( x = sulphates, y = pH) ) + 
   geom_point() +
   theme_minimal() 
